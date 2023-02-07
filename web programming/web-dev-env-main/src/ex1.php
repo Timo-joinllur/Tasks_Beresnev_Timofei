@@ -33,6 +33,7 @@ echo "<table>
 </table>        
 "
 ?>
+
 <img src= ' images/screenshot.png ' width="500" height="228" > ;
 
 <?php include "footer.php" ?>
