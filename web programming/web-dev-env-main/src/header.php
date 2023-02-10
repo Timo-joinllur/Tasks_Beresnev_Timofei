@@ -50,6 +50,7 @@
     <div class="col-sm-3" style="background-color: rgba(228, 235, 194, 0.353);">
       <h3>List of Tasks</h3>
       <a href="ex1.php">Exercise 1</a> <br>
-      <a href="index.php">Exercise 20px</a>
+      <a href="index.php">Exercise 2</a> <br>
+      <a href="variable.php">Exercise 3</a>
     </div>
     <div class="col-sm-9">

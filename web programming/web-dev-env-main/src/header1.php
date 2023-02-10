@@ -15,20 +15,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="row" style="margin-top: 10px; margin-bottom: 10px; margin-right: 5px;">
-    <div class="col-sm-3" style="background-color: rgba(228, 235, 194, 0.353);">
-    <h1>List of Tasks</h1>
-      <a href="ex1.php">Exercise 1</a> <br>
-      <a href="index.php">Exercise 2</a>
-    </div>
-    <div class="col-sm-9">
+
 <div class="grid-container">
 
     <div class="header">
-            <div style="flex-grow: 3; vertical-align: middle; "><a href="contact.html" class="button vcenter">Contact</a></div>
-            <div style="flex-grow: 3; vertical-align: middle; "><a href="staff.html" class="button vcenter">Staff</a> </div>
-            <div style="flex-grow: 3; vertical-align: middle; "><a href="reserve.html" class="button vcenter">Reserve</a> </div>
-            <div style="flex-grow: 3; vertical-align: middle; "><a href="menu.html" class="button vcenter">Menu</a> </div>
+            <div style="flex-grow: 3; vertical-align: middle; "><a href="variable.php" class="button vcenter">Exercise 3</a></div>
+            <div style="flex-grow: 3; vertical-align: middle; "><a href="index.php" class="button vcenter">Exercise 2</a> </div>
+            <div style="flex-grow: 3; vertical-align: middle; "><a href="ex1.php" class="button vcenter">Exercise 1</a> </div>
+       
             <div style="flex-grow: 5;"></div>
             <div class="visible" style="flex-grow: 1;"><p>Pizz</p><p1>urgeR</p1></div> 
             <div style="flex-grow: 2;"> <a href="index.html"><img style="width: 40px; padding: 5px;" class="vcenter" src="images/logo.png" alt="logo"></a></div> 

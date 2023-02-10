@@ -34,6 +34,7 @@ echo "<table>
 "
 ?>
 
-<img src= ' images/screenshot.png ' width="500" height="228" > ;
+<img src= ' images/screenshot.png ' width="500" height="228" > 
 
-<?php include "footer1.php" ?>
+<?php include "footer1.php";
+?>

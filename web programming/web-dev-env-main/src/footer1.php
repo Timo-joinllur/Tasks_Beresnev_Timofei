@@ -16,7 +16,9 @@
     <div style="flex-grow: 7;">Hämeenlinna<br>Kustaa III:n katu 6<br>13100 Hämeenlinna</div>
     <div style="flex-grow: 8; padding: 20px;">+358 4141414141</div>
     </div>
-    
+    <?php 
+echo "Last modified: " . date ("F d Y H:i:s.", getlastmod());
+?>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>

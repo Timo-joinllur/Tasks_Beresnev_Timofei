@@ -36,5 +36,7 @@ echo "<table>
 
 <img src= ' images/screenshot.png ' width="500" height="228" > ;
 
-<?php include "footer.php" ?>
+<?php include "footer.php";
+echo "Last modified: " . date ("F d Y H:i:s.", getlastmod());
+?>
 
