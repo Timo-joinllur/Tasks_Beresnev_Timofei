@@ -1,13 +1,13 @@
 <?php
 $title = "A simple CRUD app";
-include "header1.php";
+include "header.php";
 ?>
 
 <h2> Input your information below: </h2>
-<form name= "form1" method="post" action="">
+<form  method="post" action="" onsubmit="return crud()" name= "form1">
   <div class="row">
     <div class="col">
-      <input type="text" class="form-control" placeholder="First name" name="fname" required>
+      <input type="text" class="form-control" placeholder="First name" name="fname" onblur="fname()" required>
     </div>
     <div class="col">
       <input type="text" class="form-control" placeholder="Last name" name="lname" required>
@@ -37,12 +37,12 @@ if (isset($_POST['submit'])) {
     $city= $_POST['city'];
     $groupid= $_POST['groupid'];
     include 'db.php';
-    $sql="insert into studentsinfo (fname, lname, city, groupid)
+    $sql="insert into studentinfo (fname, lname, city, groupid)
     values('$fname', '$lname', '$city', '$groupid')";
 
     if($conn -> query($sql) === TRUE) {
-        echo "New record added";
-    }
+        echo "Your information was added successfully";
+    }   
     else {
       echo "Error: " . $sql . "<br>" . $conn -> error;
   }
@@ -55,7 +55,7 @@ if (isset($_POST['submit'])) {
 
 
 <?php
-include "footer1.php";
+include "footer.php";
 ?>
 
 
